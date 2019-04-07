@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact us</title>
+    <link href="newfonts/newfonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <script src="include/jquery.min.js"></script>
+    <script src="materialize/js/materialize.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+
+    </script>
+    <style>
+        body{
+            background-color: black;
+        }
+        #footer {
+            background-color: crimson;
+            color: white;
+            text-align: center;
+        }
+        #footer h6{
+            font-size: 14px;
+            font-family: Pacifico;
+            text-align: center;
+            padding-top: 1%;
+        }
+
+        #mapPanel p{
+            text-align: center;
+            font-family: Courgette;
+            color: white;
+        }
+        h5{
+            text-align: center;
+            font-family:"Philosopher";
+            color: white;
+            }
+
+        input{
+            color: white;
+        }
+        .card-panel h4{
+           font-family: Philosopher;
+        }
+        p{
+            font-family: Pacifico;
+            font-size: 20px;
+        }
+
+        #map {
+            width: 100%;
+            height: 340px;
+            border: none;
+            position: relative;
+            z-index: 10;
+        }
+
+
+        @media (max-width: 480px) {
+            #map{
+                margin-top: 3%;
+                margin-left: 7%;
+            }
+        }
+        @media (max-width: 480px) {
+            h4{
+                font-size: 20px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    </style>
+
+</head>
+<body style="background-color: black">
+<nav style="font-family: Pacifico;box-shadow:  0 1px 2px rgba(0,0,0,0.24);">
+    <div class="nav-wrapper" style="background-color: crimson;padding-left: 5%;">
+        <a href="#!" class="brand-logo"><img src="images/Sambhram'1logo.png" width="200" height="180" style="margin-top: -25%"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav" class="right hide-on-med-and-down close">
+            <li>
+                <a href="index.php" style="color: black">
+                    <i class="fas fa-home" style="color: black;font-size: 15px;"></i>Home
+                </a>
+            </li>
+            <li>
+                <a href="index.php#deptPanel" style="color: black">
+                    <i class="fab fa-elementor" style="color: black;font-size: 15px;"></i> Events
+                </a>
+            </li>
+            <li>
+                <a href="index.php#panelGallery" style="color: black">
+                    <i class="fas fa-images" style="color: black;font-size: 15px;"></i> Gallery
+                </a>
+            </li>
+            <li>
+                <a href="index.php#about" style="color: black">
+                    <i class="fas fa-users" style="color: black;font-size: 15px;"></i> About Us
+                </a>
+            </li>
+            <li>
+                <a href="contact.html" style="color: black">
+                    <i class="fa fa-phone" style="color: black;font-size: 15px;"></i> Contact Us
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/sambhram2k19/">
+                    <i class="fab fa-instagram" style="color: black;font-size: 20px;"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<ul style="font-family: Pacifico" class="sidenav" id="mobile-demo">
+    <li><a href="index.php" style="color: black" class="sidenav-close"><i class="fas fa-home" style="color: black;font-size: 15px;"></i>Home</a></li>
+    <li><a href="index.php#deptPanel" style="color: black" class="sidenav-close"><i class="fab fa-elementor" style="color: black;font-size: 15px;"></i> Events</a></li>
+    <li><a href="index.php#panelGallery" style="color: black" class="sidenav-close" ><i class="fas fa-images" style="color: black;font-size: 15px;"></i> Gallery</a></li>
+    <li><a href="index.php#about" style="color: black" class="sidenav-close"><i class="fas fa-users" style="color: black;font-size: 15px;"></i> About Us</a></li>
+    <li><a href="contact.html" style="color: black" class="sidenav-close"><i class="fa fa-phone" style="color: black;font-size: 15px;"></i> Contact Us</a></li>
+    <li><a href="https://www.instagram.com/sambhram2k19/" class="sidenav-close"><i class="fab fa-instagram" style="color: black;font-size: 20px;"></i></a></li>
+</ul>
+    
+    <div class="card-panel">
+        <div class="row">
+            <div class="col m4">
+                <h4>Convenor Sambhram</h4>
+                <hr>
+                <p>Mr.Ashwin Sequeira</p>
+                <p>Assistant Professor Mechanical Dept.</p>
+                <p>9886585818</p>
+            </div>
+            <div class="col m4">
+                <h4>Cultural Co-ordinator</h4>
+                <hr>
+                <p>Mrs.Anuradha Bhandary</p>
+                <p>Assistant Professor Mechanical Dept.</p>
+                <p>9035158647</p>
+            </div>
+            <div class="col m4">
+                <h4>Student Co-ordinator</h4>
+                <hr>
+                <p>Mr.Sneha Raj,B.E</p>
+                <p>Mechanical Dept.</p>
+                <p>9035158647</p>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div id="mapPanel">
+        <div class="row">
+            <h5>Contact Us</h5>
+            <p>If you have questions, we’ve got your answers.</p>
+            <!--<div class="col s3"></div>-->
+            <div class="col m6">
+                <div class="input-field">
+                    <input id="name" name="name" type="text">
+                    <label for="name">Enter your name</label>
+                </div>
+                <div class="input-field">
+                    <input id="email" name="email" type="email">
+                    <label for="email">Enter your email</label>
+                </div>
+                <div class="input-field">
+                    <input id="sub" name="sub" type="text">
+                    <label for="sub">Enter your subject</label>
+                </div>
+                <div class="input-field">
+                    <input id="msg" name="msg" type="text">
+                    <label for="msg">Enter your message</label>
+                </div>
+                <button type="submit" class="btn ">Send</button>
+            </div>
+            <div class="col m6">
+                <section>
+                    <iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB3ZOKnpSHG1iJY7TVh68f2OYMTSSKaa5k&q=Shree+Devi+Institute+of+Technology" allowfullscreen></iframe>
+                </section>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div id="footer" >
+        <div class="row">
+            <div class="col m3"></div>
+            <div class="col m6">
+                <h6 >
+                    <i class="fas fa-map-marker-alt"></i>
+                    Shree Devi Institute Of Technology
+                    Kenjar
+                    Mangalore-574142.
+                </h6>
+                <h6>
+                    <i class="fas fa-envelope"></i>
+                    sambhram2019@gmail.com
+                </h6>
+                <h6>
+                    <i class="fas fa-phone-volume"></i>
+                    +91-9035158647
+                </h6>
+                <h6><a href="https://www.instagram.com/mr_pramod_naik47/?hl=en" style="color:white">Designed And Developed by : Pramod Naik</a></h6>
+            </div>
+            <div class="col m3"></div>
+        </div>
+    </div>
+</body>
+</html>

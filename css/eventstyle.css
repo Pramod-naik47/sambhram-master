@@ -1,0 +1,119 @@
+body{
+    max-width: 100%;
+}
+#nav{
+    background-color: crimson;
+    box-shadow:  0 1px 2px rgba(0,0,0,0.24);
+    min-height: 70px;
+    font-family: Pacifico;
+    font-size: 15px;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+#nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.cursor{
+    cursor: pointer;
+    box-shadow:  3px 2px 2px 2px #aaaaaa;
+}
+
+.row{
+    margin-top: 5%;
+}
+
+
+.modal h3{
+    font-family: "Philosopher";
+    padding-left: 5%;
+}
+.modal h4{
+    font-family: Amaranth;
+    padding-left: 5%;
+}
+.modal ul li{
+    font-family: Courgette;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.modal button{
+    margin-left: 35%;
+}
+.modal {
+    width: 100%;
+}
+
+#footer{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+}
+#footer h6{
+    font-size: 14px;
+    font-family: Pacifico;
+    text-align: center;
+    padding-top: 1%;
+}
+
+
+
+/*media query*/
+@media (max-width: 480px) {
+    nav ul li a{
+        color: black;
+    }
+    nav ul li  i{
+        color: black;
+    }
+}
+
+@media (max-width: 480px) {
+    #vp,#rc,#gl,#pPlane,#pPresentation{
+        margin-top: 10%;
+    }
+
+    #nfs,#cs,#TechPresento,#Quizholic,#Web,#Spycoder,#Grapix{
+        margin-top: 10%;
+    }
+
+    #vp,#rc,#gl,#pPlane,#pPresentation{
+        margin-top: 10%;
+    }
+
+    #Lights,#TheHennaArt,#CreativeWriting,#DanceMania,#CrazyMarketiers,#MirrorImage,#FrameIt,#Kosupure,#TheChasers,#SongsUnlimited,#RhytmicRide,#FaceOff,#PrettyCute-Icles,#ThePerformers,#ComicCon{
+        margin-top: 10%;
+    }
+
+    #Techkrithi,#BridgeMaking,#Centerlinemarking,#MindTickler,#SolidWasteManagement{
+        margin-top: 10%;
+    }
+
+    #CircuitBuilding,#Tech-Excellence,#RCRacing,#Electro-Charades,#pPresentation{
+        margin-top: 10%;
+    }
+
+    #pPresentation,#Debate,#Foundry,#RoboWar,#ScrapWelding{
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    #vp,#nfs,#Lights,#Techkrithi{
+       margin-top: 50%;
+    }
+    #CircuitBuilding{
+        margin-top: 70%;
+    }
+    .title{
+        margin-top: 12%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cursor{
+        box-shadow:  3px 2px 2px 2px #aaaaaa;
+    }
+}
